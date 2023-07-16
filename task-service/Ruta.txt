@@ -1,0 +1,18 @@
+|1. crear paquetes son 7 o los que se utilice
+|-> configuration
+|-> controller
+|-> domain
+    |-> dto
+|-> exceptions
+|-> repository
+    |-> impl (para patrones DAO - customizacion de consultas)
+|-> service
+    |-> impl
+|-> util
+|
+|2. Crear los repository que son Interfaces que heredan de JPA
+|3. Crear los service que son Interfaces
+|4. Crear clases que implementen las interfaces de services y programar codigo de los medos
+|5. Crear el Mapper en util con metodos static o como bean(Esto ultimo si ya se sabe)
+|6. Crear los controller
+|7. Configurar el application.properties para la base de datos y jwt etc

@@ -1,0 +1,19 @@
+
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Allen2316/todobackend.git
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  application:
+    name: config-service
+  security:
+    user:
+      name: root
+      password: s3cr3t
