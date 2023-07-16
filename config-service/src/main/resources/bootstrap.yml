@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          default-label: origin
+          default-label: main
           uri: https://github.com/Allen2316/todobackend
           searchPaths: config-data
           username: ${GIT_USER}
